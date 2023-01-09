@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+    min-width: 800px;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: palevioletred;
+}
+
+header h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    font-size: medium;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 'menu main main main main main';
+    gap: 10px;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.seccion1 {
+    background-color: aqua;
+    grid-area: menu;
+}
+
+.seccion1 ol li {
+    list-style: none;
+    margin-top:70%;
+}
+
+.seccion1 ol li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: palevioletred;
+    text-decoration-line: none;
+}
+
+.seccion2{
+    grid-area: main;
+    display: grid;
+    grid-template-areas:
+        'menu'
+        'main';
+}
+
+.seccion2 .arriba{
+    display: grid;
+    grid-template-areas: 'menu main';
+}
+
+.seccion2 .arriba #figura1{
+    grid-area: main;
+}
+
+.seccion2 .arriba #figura2{
+    grid-area: menu;
+}
+
+.seccion2 .arriba section {
+    grid-area: menu;
+    width: 90%;
+    border: 5px double black;
+    text-align: center;
+}
+
+.seccion2 .abajo{
+    display: grid;
+    grid-template-areas: 'menu main right';
+}
+
+.seccion2 .abajo #figura3{
+    grid-area: main;
+}
+
+.seccion2 .abajo #figura4{
+    grid-area: menu;
+}
+
+.seccion2 .abajo #figura5{
+    grid-area: right;
+}
+
+.seccion2 .abajo section {
+    width: 90%;
+    border: 5px double black;
+    text-align: center;
+}
+
+.seccion2 img {
+    width: 100%;
+    margin: 0px 0px;
+}
+
+footer{
+    display: grid;
+    grid-template-areas: 'menu main right';
+}
+
+footer>section,
+footer>address {
+    font-size: 90%;
+}
+
+footer address {
+    grid-area: menu;
+    width: 30%;
+}
+
+.copyright {
+    text-align: center;
+    grid-area: main;
+}
+
+.redes {
+    text-align: end;
+    grid-area: right;
+}
+
+footer img {
+    width: 30%;
+}
