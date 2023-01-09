@@ -1,14 +1,14 @@
 # proyecto2_MaquetacionGrid
 ## Descripción del proyecto:
-Proyecto realizado con maquetación flex de css.
+Proyecto realizado con maquetación Grid de css.
 ## Contenido de la publicación:
-Este directorio contiene el fichero maquetacionFLEX_Practica01c.html y dos carpetas, estas son css y img.
+Este directorio contiene el fichero maquetacionGrid_Practica01c.html y dos carpetas, estas son css y img.
 En la carpeta css se encuentra el fichero estilos.css.
 En la carpeta img se encuentran las imagenes.
 ## Desarrollo del proyecto:
 Visual Studio Code
 ## Despliegue (link a la página principal):
-[maquetacionFLEX_Practica01c.html](https://github.com/NEBUR342/proyecto1_MaquetacionFlex/blob/main/mflexP01c_AlvarezFernandezRuben/maquetacionFLEX_Practica01c.html)
+[maquetacionFLEX_Practica01c.html](https://github.com/NEBUR342/proyecto2_MaquetacionGrid/blob/main/mGridP01_AlvarezFernandezRuben/maquetacionGrid_Practica01c.html)
 ## Construido con:
 HTML y CSS
 ## Autores:
